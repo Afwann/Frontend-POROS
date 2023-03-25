@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Delicious+Handrawn&family=Open+Sans:ital,wght@1,600&family=Rubik&display=swap');
+
+
+.alternative-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background-image:url(Svg1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Alkatra', cursive;
+  }
+ 
+  .graphic-container {
+    height: 80vh;
+    width: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+  }
+ 
+  .graphic {
+    display: flex;
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+ 
+  .graphic-container h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }

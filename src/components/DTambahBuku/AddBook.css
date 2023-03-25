@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Delicious+Handrawn&family=Open+Sans:ital,wght@1,600&family=Roboto+Slab&family=Rubik&display=swap');
+
+
+.add-book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-image:url(Svg3.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+ 
+  .add-book form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    max-width: 600px;
+   
+  }
+ 
+  .add-book h2 {
+    margin-bottom: 2rem;
+  }
+ 
+  .add-book label {
+    display: block;
+    width: 100%;
+  }
+ 
+  .add-book input,
+  .add-book select {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+ 
+  .add-book button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+   
+  }
